@@ -24,21 +24,21 @@
 	define('_XSERIAL_WSDLUNSUCCESSFUL','Database Updated - Error Compiling WSDL');
 	define('_XSERIAL_DATABASEUPDATED','Database Updated');						
 	
-	define('_XSERIAL_SECONDS', 'Function lock out time');
-	define('_XSERIAL_SECONDS_DESC', 'Period of time for locked function to be invocated on incorrect username and password details!!');
+	define('_XSERIAL_SECONDS','Function lock out time');
+	define('_XSERIAL_SECONDS_DESC','Period of time for locked function to be invocated on incorrect username and password details!!');
 
-	define('_XSERIAL_SECONDSCACHE', 'Lockout cache stored for');
-	define('_XSERIAL_SECONDSCACHE_DESC', 'Period of time for cache function to be invocated!');
+	define('_XSERIAL_SECONDSCACHE','Lockout cache stored for');
+	define('_XSERIAL_SECONDSCACHE_DESC','Period of time for cache function to be invocated!');
 		
-	define('_XSERIAL_SECONDS_3600', '1 Hour');
-	define('_XSERIAL_SECONDS_1800', '30 minutes');
-	define('_XSERIAL_SECONDS_1200', '20 minutes');
-	define('_XSERIAL_SECONDS_600', '10 minutes');
-	define('_XSERIAL_SECONDS_300', '5 Minutes');
-	define('_XSERIAL_SECONDS_180', '3 Minutes');
-	define('_XSERIAL_SECONDS_60', '1 Minute');
-	define('_XSERIAL_SECONDS_30', '30 Seconds');	
+	define('_XSERIAL_SECONDS_3600','1 Hour');
+	define('_XSERIAL_SECONDS_1800','30 minutes');
+	define('_XSERIAL_SECONDS_1200','20 minutes');
+	define('_XSERIAL_SECONDS_600','10 minutes');
+	define('_XSERIAL_SECONDS_300','5 Minutes');
+	define('_XSERIAL_SECONDS_180','3 Minutes');
+	define('_XSERIAL_SECONDS_60','1 Minute');
+	define('_XSERIAL_SECONDS_30','30 Seconds');	
 	
-	define('_XSERIAL_USERANDOMLOCK', 'Random seconds seed (maximum value)');
-	define('_XSERIAL_USERANDOMLOCK_DESC', 'You should not set this above the maximum function lockout time!');
+	define('_XSERIAL_USERANDOMLOCK','Random seconds seed (maximum value)');
+	define('_XSERIAL_USERANDOMLOCK_DESC','You should not set this above the maximum function lockout time!');
 ?>
